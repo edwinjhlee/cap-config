@@ -15739,7 +15739,7 @@ var localTlds = {
 
 var proxy = "%PROXY%";
 
-var direct = '%DIRECT%;';
+var direct = '%DIRECT%';
 
 var hasOwnProperty = Object.hasOwnProperty;
 
