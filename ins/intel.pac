@@ -15737,7 +15737,7 @@ var localTlds = {
   ".test": 1
 };
 
-var proxy = "SOCKS5 hq-proxy.dyinnovations.com:65501; SOCKS5 127.0.0.1:7070; SOCKS5 192.168.42.1:65501; DIRECT";
+var proxy = "SOCKS5 hq-proxy.dyinnovations.com:65500; SOCKS5 127.0.0.1:7070; SOCKS5 192.168.42.1:65500; DIRECT";
 
 var direct = 'DIRECT;';
 
