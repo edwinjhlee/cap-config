@@ -56,3 +56,13 @@ generate(
     "SOCKS5 hq-proxy.dyinnovations.com:65501; PROXY hq-proxy.dyinnovations.com:65511; DIRECT",
     "hq-proxy-intel"
 )
+
+generate(
+    [
+        "SOCKS5 hq-proxy.dyinnovations.com:65501",
+        "SOCKS5 127.0.0.1:7070", 
+        "SOCKS5 192.168.42.1:65501",
+        "DIRECT"
+    ].join("; "),
+    "intel"
+)
