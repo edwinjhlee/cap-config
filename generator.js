@@ -22,6 +22,15 @@ generate(
     "docker-host-intel"
 )
 
+generate(
+    "SOCKS5 192.168.42.1:65500; PROXY 192.168.42.1:65510; DIRECT",
+    "vpn-host-all"
+)
+
+generate(
+    "SOCKS5 192.168.42.1:65501; PROXY 192.168.42.1:65511; DIRECT",
+    "vpn-host-intel"
+)
 
 generate(
     "SOCKS5 127.0.0.1:7070; PROXY 127.0.0.1:7070; DIRECT",
