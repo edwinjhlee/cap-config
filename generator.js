@@ -70,6 +70,7 @@ generate(
 generate(
     [
         "SOCKS5 192.168.31.246:65500",
+        "PROXY 192.168.31.246:65510",
         "DIRECT"
     ].join("; "),
     "dorm-1103"
