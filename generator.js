@@ -9,7 +9,7 @@ function generate(proxy, outpath){
     const s = fs.readFileSync(__dirname + "/template.txt").toString()
     const s1 = s.replace("%PROXY%", proxy)
     const s2 = s1.replace("%DIRECT%", "DIRECT;")
-    fs.writeFileSync(__dirname + "/ins/" + outpath + ".pac", s2)
+    fs.writeFileSync(__dirname + "/docs/" + outpath + ".pac", s2)
 }
 
 generate(
