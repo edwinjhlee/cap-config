@@ -66,3 +66,11 @@ generate(
     ].join("; "),
     "intel"
 )
+
+generate(
+    [
+        "SOCKS5 192.168.31.246:65500",
+        "DIRECT"
+    ].join("; "),
+    "dorm-1103"
+)
