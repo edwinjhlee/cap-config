@@ -15737,7 +15737,7 @@ var localTlds = {
   ".test": 1
 };
 
-var proxy = "SOCKS5 192.168.31.246:65500; PROXY 192.168.31.246:65510; DIRECT";
+var proxy = "SOCKS5 192.168.31.246:7070; SOCKS5 192.168.31.246:65500; PROXY 192.168.31.246:65510; DIRECT";
 
 var direct = 'DIRECT;';
 
