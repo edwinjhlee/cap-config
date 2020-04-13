@@ -69,6 +69,15 @@ generate(
 
 generate(
     [
+        "PROXY hq-proxy.dyinnovations.com:7071",
+        "SOCKS5 127.0.0.1:7070",
+        "DIRECT"
+    ].join("; "),
+    "hq-proxy"
+)
+
+generate(
+    [
         "PROXY 192.168.31.246:7071",
         "DIRECT"
     ].join("; "),
