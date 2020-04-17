@@ -15737,7 +15737,7 @@ var localTlds = {
   ".test": 1
 };
 
-var proxy = "PROXY 192.168.3.31:7071;DIRECT";
+var proxy = "PROXY 192.168.3.31:7080;DIRECT";
 
 var direct = 'DIRECT;';
 
