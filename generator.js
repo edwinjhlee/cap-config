@@ -10,6 +10,7 @@ function generate(proxy, outpath){
     const s1 = s.replace("%PROXY%", proxy)
     const s2 = s1.replace("%DIRECT%", "DIRECT;")
     fs.writeFileSync(__dirname + "/docs/" + outpath + ".pac", s2)
+    console.log(`https://edwinjhlee.github.io/cap-config/${outpath}.pac`)
 }
 
 generate(
@@ -82,4 +83,12 @@ generate(
         "DIRECT"
     ].join("; "),
     "dorm-1103"
+)
+
+generate(
+    [
+        "PROXY 192.168.3.31:7071",
+        "DIRECT",
+    ].join(";"),
+    "home-108"
 )
