@@ -88,8 +88,8 @@ generate(
 generate(
     [
         "PROXY 192.168.3.31:7071",
-        "SOCKS5 192.168.3.31:7070",
-        "DIRECT",
+        // "SOCKS5 192.168.3.31:7070",
+        // "DIRECT",
     ].join(";"),
     "home-108"
 )
